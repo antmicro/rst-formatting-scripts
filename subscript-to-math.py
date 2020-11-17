@@ -23,7 +23,7 @@ Addition, subtraction, multiplication, equation and abs operands are clustered t
 Division of subscripted variables is converted to :math:'/frac{}{}'
 
 example call:
-find . -name '*.rst' | xargs python3 subscript_to_math.py
+find . -name '*.rst' | xargs python3 subscript-to-math.py
 '''
 
 import argparse
